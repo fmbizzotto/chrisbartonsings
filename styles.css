@@ -22,6 +22,10 @@ body {
     color: #b9005a;
 }
 
+#presentacion p a:visited {
+    color: white;
+}
+
 #portrait {
     background-color: black;
     /* background-image: radial-gradient(#4A1E33,black); */
