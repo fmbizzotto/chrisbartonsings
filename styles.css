@@ -1,10 +1,30 @@
 body {
-    background-color: black;
+    background-color: #131313;
 }
 
-#principal {
-    background-image: url(img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 710px ;
+#presentacion {
+    background-color:black;
+}
+
+#presentacion p {
+    color: white;
+    border-style: solid;
+    border-color: rgb(49, 49, 49);
+    border-width: 1px 0px 0px 0px;
+    padding-top: 10px;
+}
+
+#presentacion p a {
+    color: white;
+}
+
+#presentacion p a:hover {
+    color: #b9005a;
+}
+
+#portrait {
+    background-color: black;
+    /* background-image: radial-gradient(#4A1E33,black); */
+    background-image: linear-gradient(37deg,black 70%,#4A1E33 100%);
+    padding-top: 75px;
 }
