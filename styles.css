@@ -66,3 +66,8 @@ body {
 .col-derecha p {
     color: darkgray;
 }
+
+.biopic {
+    min-width: 267px;
+    padding-bottom: 5%;
+}
