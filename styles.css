@@ -69,5 +69,10 @@ body {
 
 .biopic {
     min-width: 267px;
-    padding-bottom: 5%;
+}
+
+#bio figcaption {
+    margin-top: -30px;
+    margin-right: 10px;
+    text-align: end;
 }
