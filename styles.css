@@ -62,14 +62,38 @@ a:active {
     padding-top: 10px;
 }
 
+#presentacion img[src="img/logo.png"] {
+    border-style: solid;
+    border-width: 0px 0px 5px 0;
+}
+
 #portrait {
     background-color: black;
     /* background-image: radial-gradient(#4A1E33,black); */
     background-image: linear-gradient(37deg,black 70%,#4A1E33 100%);
     padding-top: 75px;
-    border-style: solid;
-    border-color: #200d16;
-    border-width: 0px 0px 2px 0px;
+}
+
+#presentacion .navbar {
+    height: 35px;
+    background-color: transparent;
+}
+
+#presentacion a:link {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+}
+
+#presentacion a:visited {
+    color: rgb(114, 114, 114);
+}
+
+#presentacion a:hover {
+    color: #b9005a;
+}
+
+#presentacion a:active {
+    color: rgb(114, 114, 114);
 }
 
 /* Bio section */
@@ -101,10 +125,6 @@ a:active {
     border-color: #222222;
 }
 
-.card-text {
-    text-align: justify;
-}
-
 .card:hover {
     /* box-shadow: 0px 0px 15px #b9005a; */
     border-style: solid;
@@ -128,3 +148,22 @@ a:active {
      border-color: #222222;
      color: white;
  }
+
+ /* Find me */
+
+#findme a:link {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+}
+
+#findme a:visited {
+    color: rgb(114, 114, 114);
+}
+
+#findme a:hover {
+    color: #b9005a;
+}
+
+#findme a:active {
+    color: rgb(114, 114, 114);
+}
