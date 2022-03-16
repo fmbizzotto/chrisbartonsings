@@ -1,0 +1,10 @@
+<div class="container-fluid pagina" id="bio">
+    <div class="row h-100">
+        <div class="col col-12 col-md-4 col-izquierda text-start text-md-end">
+            <h1>Section Title</h1>
+        </div>
+        <div class="col col-12 col-md-8 col-derecha">
+
+        </div>
+    </div>
+</div>

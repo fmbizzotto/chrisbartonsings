@@ -1,46 +1,7 @@
+/* Global */
+
 body {
     background-color: #131313;
-}
-
-#presentacion {
-    background-color:black;
-    border-style: solid;
-    border-color: rgb(37, 37, 37);
-    border-width: 0px 0px 1px 0px;
-}
-
-#presentacion p {
-    color: white;
-    border-style: solid;
-    border-color: rgb(49, 49, 49);
-    border-width: 1px 0px 0px 0px;
-    padding-top: 10px;
-}
-
-#presentacion p a:link {
-    color: white;
-}
-
-#presentacion p a:visited {
-    color: white;
-}
-
-#presentacion p a:hover {
-    color: #b9005a;
-}
-
-#presentacion p a:active {
-    color: white;
-}
-
-#portrait {
-    background-color: black;
-    /* background-image: radial-gradient(#4A1E33,black); */
-    background-image: linear-gradient(37deg,black 70%,#4A1E33 100%);
-    padding-top: 75px;
-    border-style: solid;
-    border-color: #200d16;
-    border-width: 0px 0px 2px 0px;
 }
 
 .pagina {
@@ -67,6 +28,52 @@ body {
     color: darkgray;
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #b9005a;
+}
+
+a:active {
+    color: white;
+}
+
+/* Presentacion section */
+
+#presentacion {
+    background-color:black;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+    border-width: 0px 0px 1px 0px;
+}
+
+#presentacion p {
+    color: white;
+    border-style: solid;
+    border-color: rgb(49, 49, 49);
+    border-width: 1px 0px 0px 0px;
+    padding-top: 10px;
+}
+
+#portrait {
+    background-color: black;
+    /* background-image: radial-gradient(#4A1E33,black); */
+    background-image: linear-gradient(37deg,black 70%,#4A1E33 100%);
+    padding-top: 75px;
+    border-style: solid;
+    border-color: #200d16;
+    border-width: 0px 0px 2px 0px;
+}
+
+/* Bio section */
+
 .biopic {
     min-width: 267px;
 }
@@ -77,6 +84,12 @@ body {
     text-align: end;
 }
 
+#bio p {
+    text-align: justify;
+}
+
+/* Featured section */
+
 .card {
     height: 1;
     max-width: 358px;
@@ -84,4 +97,34 @@ body {
     margin-right: auto;
     margin-bottom: 10px;
     background-color: #141414;
+    border-style: solid;
+    border-color: #222222;
 }
+
+.card-text {
+    text-align: justify;
+}
+
+.card:hover {
+    /* box-shadow: 0px 0px 15px #b9005a; */
+    border-style: solid;
+    border-color: #500027;
+    background-color: #500027;
+}
+
+/* Contact section */
+ #contact h5 {
+     color: gray;
+     text-align: center;
+     margin-bottom: 1em;
+ }
+
+ #contact ul {
+     margin-bottom: 1em;
+ }
+
+ #contact li {
+     background-color: transparent;
+     border-color: #222222;
+     color: white;
+ }
