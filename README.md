@@ -1,8 +1,7 @@
-# Christopher Barton
-## Featured Singer from United Kingdom
+# Chris Barton Sings
+## Website project / Artist webpage
 
 Developed and designed by 'Franco Bizzotto'
 fmbizzotto@gmail.com
 
-Version: ´Preliminary´
-Description: Promopage, only featured picture. Website in progress.
+Access website on: [chrisbartonsings.com](https://chrisbartonsings.com/)
