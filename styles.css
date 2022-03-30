@@ -1,4 +1,7 @@
 /* Global */
+:root {
+    --linkcolor: #80A2FF;
+}
 
 body {
     background-color: #131313;
@@ -28,20 +31,20 @@ body {
     color: darkgray;
 }
 
-a:link {
+.link:link {
     color: white;
     text-decoration: none;
 }
 
-a:visited {
+.link:visited {
     color: white;
 }
 
-a:hover {
-    color: #b9005a;
+.link:hover {
+    color: var(--linkcolor);
 }
 
-a:active {
+.link:active {
     color: white;
 }
 
@@ -70,30 +73,19 @@ a:active {
 #portrait {
     background-color: black;
     /* background-image: radial-gradient(#4A1E33,black); */
-    background-image: linear-gradient(37deg,black 70%,#4A1E33 100%);
-    padding-top: 75px;
+    /* background-image: linear-gradient(37deg,black 70%,#4A1E33 100%); */
+    background-image: linear-gradient(65deg,black 45%,#021545 100%);
+    padding-top: 12px;
+}
+
+#contenedor {
+    background-color: black;
+    background-image: linear-gradient(-65deg,black 80%,#330101 100%);
 }
 
 #presentacion .navbar {
     height: 35px;
     background-color: transparent;
-}
-
-#presentacion a:link {
-    color: rgb(114, 114, 114);
-    text-decoration: none;
-}
-
-#presentacion a:visited {
-    color: rgb(114, 114, 114);
-}
-
-#presentacion a:hover {
-    color: #b9005a;
-}
-
-#presentacion a:active {
-    color: rgb(114, 114, 114);
 }
 
 /* Bio section */
@@ -126,10 +118,10 @@ a:active {
 }
 
 .card:hover {
-    /* box-shadow: 0px 0px 15px #b9005a; */
+    box-shadow: 0px 0px 5px var(--linkcolor);
     border-style: solid;
-    border-color: #500027;
-    background-color: #500027;
+    /* border-color: var(--linkcolor);
+    background-color: var(--linkcolor); */
 }
 
 /* Contact section */
@@ -150,20 +142,3 @@ a:active {
  }
 
  /* Find me */
-
-#findme a:link {
-    color: rgb(114, 114, 114);
-    text-decoration: none;
-}
-
-#findme a:visited {
-    color: rgb(114, 114, 114);
-}
-
-#findme a:hover {
-    color: #b9005a;
-}
-
-#findme a:active {
-    color: rgb(114, 114, 114);
-}

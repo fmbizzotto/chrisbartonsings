@@ -22,8 +22,8 @@
 
     <body>
         <div class="container-fluid" id="presentacion">
-            <div class="row row-cols-1 row-cols-md-2 align-items-end">
-                <div class="col order-2 order-md-1 m-auto p-5"> <!-- Izquierda / Abajo -->
+            <div class="row row-cols-1 row-cols-md-2 align-items-end" id="contenedor">
+                <div class="col order-2 order-md-1 m-auto p-5" id="logo"> <!-- Izquierda / Abajo -->
                     <div class="row"> 
                         <div class="col"> <!-- Logotipo -->
                             <img src="img/logo.png" class="img-fluid mx-auto d-block" alt="Logo">
@@ -38,16 +38,16 @@
                                   </button>
                                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav pull-right">
-                                        <a class="nav-link d-none" href="#bio">Bio</a>
-                                        <a class="nav-link d-none" href="#featured">Featured</a>
-                                        <a class="nav-link d-none" href="#performance">Performance</a>
-                                        <a class="nav-link d-none" href="#contact">Contact</a>
+                                        <a class="nav-link d-none link" href="#bio">Bio</a>
+                                        <a class="nav-link d-none link" href="#featured">Featured</a>
+                                        <a class="nav-link d-none link" href="#performance">Performance</a>
+                                        <a class="nav-link d-none link" href="#contact">Contact</a>
                                     </div>
                                   </div>
                                   <ul class="nav navbar-nav pull-right" style="width: 94px;">
-                                      <a class="nav-link" href="https://www.instagram.com/chris.bartonsings/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                                      <a class="nav-link" href="https://www.youtube.com/channel/UCjWxtjUoclpRpNSGsOzzsKA" target="_blank" title="Youtube Channel"><i class="fa-brands fa-youtube"></i></a>
-                                      <a class="nav-link" href="https://www.spotlight.com/1172-4509-5076" target="_blank" title="Spotlight profile"><i class="fa-solid fa-user"></i></a>
+                                      <a class="nav-link link" href="https://www.instagram.com/chris.bartonsings/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                      <a class="nav-link link" href="https://www.youtube.com/channel/UCjWxtjUoclpRpNSGsOzzsKA" target="_blank" title="Youtube Channel"><i class="fa-brands fa-youtube"></i></a>
+                                      <a class="nav-link link" href="https://www.spotlight.com/1172-4509-5076" target="_blank" title="Spotlight profile"><i class="fa-solid fa-user"></i></a>
                                   </ul>
                                 </div>
                             </nav>
@@ -108,7 +108,12 @@
                                 <img src="img/soundofmusic.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">The Sound of Music</h5>
-                                  <p class="card-text">Chris played the role of Rolf in Andrew Lloyd Webber’s lavish production of “The Sound of Music”, starring alongside Jason Donovan, Connie Fisher and Lesley Garrett.</p>
+                                    <details>
+                                        <summary>Details</summary>
+                                            <p class="small text-muted card-text">
+                                                Chris played the role of Rolf in Andrew Lloyd Webber’s lavish production of “The Sound of Music”, starring alongside Jason Donovan, Connie Fisher and Lesley Garrett.
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
@@ -116,8 +121,13 @@
                             <div class="card text-light">
                                 <img src="img/springawakening.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Spring Awakening</h5>
-                                  <p class="card-text">Chris was cast as a Swing in the original London Cast of “Spring Awakening”, ultimately playing every male role in the production, including the leading role of Melchior Gabor. Chris was part of the cast from the very first previews at the Lyric Hammersmith Theatre and transferred with the company to the Novello Theatre for it's West End premiere.</p>
+                                    <h5 class="card-title">Spring Awakening</h5>
+                                    <details>
+                                        <summary>Details</summary>
+                                            <p class="small text-muted card-text">
+                                                Chris was cast as a Swing in the original London Cast of “Spring Awakening”, ultimately playing every male role in the production, including the leading role of Melchior Gabor. Chris was part of the cast from the very first previews at the Lyric Hammersmith Theatre and transferred with the company to the Novello Theatre for it's West End premiere.
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
@@ -125,8 +135,13 @@
                             <div class="card text-light">
                                 <img src="img/anydreamwilldo.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Any Dream Will Do</h5>
-                                  <p class="card-text">Chris was a finalist in the hit BBC One TV show, where he made it to the live finals, singing every Saturday evening for the nation’s vote.</p>
+                                    <h5 class="card-title">Any Dream Will Do</h5>
+                                    <details>
+                                        <summary>Details</summary>
+                                            <p class="small text-muted card-text">
+                                                Chris was a finalist in the hit BBC One TV show, where he made it to the live finals, singing every Saturday evening for the nation’s vote.
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
@@ -134,8 +149,13 @@
                             <div class="card text-light">
                                 <img src="img/hairspray.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Hairspray</h5>
-                                  <p class="card-text">Chris played the role of Sketch in the original West End production of “Hairspray” at the Shaftesbury Theatre in London.</p>
+                                    <h5 class="card-title">Hairspray</h5>
+                                    <details>
+                                        <summary>Details</summary>
+                                            <p class="small text-muted card-text">
+                                                Chris played the role of Sketch in the original West End production of “Hairspray” at the Shaftesbury Theatre in London.
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
@@ -143,8 +163,13 @@
                             <div class="card text-light">
                                 <img src="img/joseph.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Joseph and the Amazing Technicolor Dreamcoat</h5>
-                                  <p class="card-text">Chris joined the company of this much-loved show in 2007 where he played three different roles in the show: as Benjamin, as the Narrator and, in the title role of Joseph.</p>
+                                    <h5 class="card-title">Joseph and the Amazing Technicolor Dreamcoat</h5>
+                                    <details>
+                                        <summary>Details</summary>
+                                            <p class="small text-muted card-text">
+                                                Chris joined the company of this much-loved show in 2007 where he played three different roles in the show: as Benjamin, as the Narrator and, in the title role of Joseph.
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
@@ -152,8 +177,13 @@
                             <div class="card text-light">
                                 <img src="img/chrisbartonshow.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Headline: Chris Barton</h5>
-                                  <p class="card-text">Most recently, Chris has been starring with many leading cruise lines, including Royal Caribbean, P&O Cruises, Celebrity Cruises and Seabourn Cruises, where his entertaining one-man show continues to wow audiences across the globe.</p>
+                                    <h5 class="card-title">Headline: Chris Barton</h5>
+                                    <details>
+                                        <summary>Details</summary>
+                                            <p class="small text-muted card-text">
+                                                Most recently, Chris has been starring with many leading cruise lines, including Royal Caribbean, P&O Cruises, Celebrity Cruises and Seabourn Cruises, where his entertaining one-man show continues to wow audiences across the globe.
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>
@@ -185,9 +215,9 @@
                             <ul class="list-group">
                                 <li class="list-group-item fw-bold bg-dark">Zoe Tyler</li>
                                 <li class="list-group-item"><i class="fa-solid fa-envelope"></i> Email:</li>
-                                <li class="list-group-item"><a href="mailto:zoe@zoetylerinternational.com">zoe@zoetylerinternational.com</a></li>
+                                <li class="list-group-item"><a class="link" href="mailto:zoe@zoetylerinternational.com">zoe@zoetylerinternational.com</a></li>
                                 <li class="list-group-item"><i class="fa-solid fa-globe"></i> Website:</li>
-                                <li class="list-group-item"><a href="https://www.zoetylerinternational.com/page/?permalink=chris-barton" target="_blank">zoetylerinternational.com</a></li>
+                                <li class="list-group-item"><a class="link" href="https://www.zoetylerinternational.com/page/?permalink=chris-barton" target="_blank">zoetylerinternational.com</a></li>
                             </ul>
                         </div>
                         <div class="col">
@@ -195,9 +225,9 @@
                             <ul class="list-group">
                                 <li class="list-group-item fw-bold bg-dark">Emma Engers</li>
                                 <li class="list-group-item"><i class="fa-solid fa-envelope"></i> Email:</li>
-                                <li class="list-group-item"><a href="mailto:emma@emmaengersassociates.com">emma@emmaengersassociates.com</a></li>
+                                <li class="list-group-item"><a class="link" href="mailto:emma@emmaengersassociates.com">emma@emmaengersassociates.com</a></li>
                                 <li class="list-group-item"><i class="fa-solid fa-globe"></i> Website:</li>
-                                <li class="list-group-item"><a href="https://www.emmaengersassociates.com/" target="_blank">emmaengersassociates.com</a></li>
+                                <li class="list-group-item"><a class="link" href="https://www.emmaengersassociates.com/" target="_blank">emmaengersassociates.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -213,13 +243,13 @@
                 <div class="col col-12 col-md-8 col-derecha">
                     <div class="row text-start text-md-center row-cols-1 row-cols-md-3">
                         <div class="col pb-3">
-                            <h2><a class="nav-link" href="https://www.instagram.com/chris.bartonsings/" target="_blank"><i class="fa-brands fa-instagram"></i>&nbspInstagram</a></h2>
+                            <h2><a class="nav-link link" href="https://www.instagram.com/chris.bartonsings/" target="_blank"><i class="fa-brands fa-instagram"></i>&nbspInstagram</a></h2>
                         </div>
                         <div class="col pb-3">
-                            <h2><a class="nav-link" href="https://www.youtube.com/channel/UCjWxtjUoclpRpNSGsOzzsKA" target="_blank"><i class="fa-brands fa-youtube"></i>&nbspYoutube</a></h2>
+                            <h2><a class="nav-link link" href="https://www.youtube.com/channel/UCjWxtjUoclpRpNSGsOzzsKA" target="_blank"><i class="fa-brands fa-youtube"></i>&nbspYoutube</a></h2>
                         </div>
                         <div class="col pb-3">
-                            <h2><a class="nav-link" href="https://www.spotlight.com/1172-4509-5076" target="_blank"><i class="fa-solid fa-user"></i>&nbspSpotlight</a></h2>
+                            <h2><a class="nav-link link" href="https://www.spotlight.com/1172-4509-5076" target="_blank"><i class="fa-solid fa-user"></i>&nbspSpotlight</a></h2>
                         </div>
                     </div>
                 </div>
@@ -228,7 +258,14 @@
 
         <footer class="footer mt-auto py-3 bg-dark">
             <div class="container-fluid align-items-end">
-              <span class="text-muted"><a href="#presentacion"><i class="fa-solid fa-arrow-up"></i>&nbspBack to top</a></span>
+                <div class="row">
+                    <div class="col">
+                        <span class="text-muted"><a class="link" href="#presentacion"><i class="fa-solid fa-arrow-up"></i>&nbspBack to top</a></span>
+                    </div>
+                    <div class="col align-items-end">
+                        <p class="text-muted text-end">&#169 Chris Barton</p>
+                    </div>
+                </div>
             </div>
           </footer>
         
