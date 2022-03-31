@@ -48,6 +48,7 @@ body {
     color: white;
 }
 
+
 /* Presentacion section */
 
 #presentacion {
@@ -67,7 +68,7 @@ body {
 
 #presentacion img[src="img/logo.png"] {
     border-style: solid;
-    border-width: 0px 0px 5px 0;
+    border-width: 0px 0px 3px 0;
 }
 
 #portrait {
@@ -86,6 +87,42 @@ body {
 #presentacion .navbar {
     height: 35px;
     background-color: transparent;
+}
+
+/* Navegacion */
+
+#navegacion {
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+    border-width: 0px 0px 1px 0px;
+}
+
+#navegacion .nav-link {
+    font-size: small;
+    margin: 0px 10px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+}
+
+#navegacion .nav-link:hover {
+    border-style: solid;
+    border-color: var(--linkcolor);
+    border-width: 1px;
+}
+
+#navegacion .navbar-toggler {
+    margin-left: 16px;
+}
+
+#navegacion .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#navegacion .link:hover {
+    color: var(--linkcolor);
 }
 
 /* Bio section */
