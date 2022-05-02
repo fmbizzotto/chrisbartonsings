@@ -1,7 +1,15 @@
 # Chris Barton Sings
-## Website project / Artist webpage
 
-Developed and designed by 'Franco Bizzotto'
-fmbizzotto@gmail.com
+One-Page-Website as promo page for artist/singer.
 
-Access website on: [chrisbartonsings.com](https://chrisbartonsings.com/)
+## Technologies
+
+![HTML Badge](https://img.shields.io/badge/HTML-5-orange)
+
+![CSS Badge](https://img.shields.io/badge/CSS-3-blue)
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-blueviolet)
+
+## Usage
+
+[chrisbartonsings.com](https://chrisbartonsings.com/)
