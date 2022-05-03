@@ -10,6 +10,6 @@ One-Page-Website as promo page for artist/singer.
 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-blueviolet)
 
-## Usage
+## Live preview
 
 [chrisbartonsings.com](https://chrisbartonsings.com/)
