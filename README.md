@@ -12,4 +12,4 @@ One-Page-Website as promo page for artist/singer.
 
 ## Live preview
 
-[chrisbartonsings.com](https://chrisbartonsings.com/)
+[https://fmbizzotto.github.io/chrisbartonsings/](https://fmbizzotto.github.io/chrisbartonsings/)
